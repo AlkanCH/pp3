@@ -1,6 +1,7 @@
 public class TestBook {
     public static void main(String[] args) {
-        Book b1 = new Book("Witcher","Sapkowski");
+        Publisher p1 = new Publisher("abc", "New York")
+        Book b1 = new Book("Witcher","Sapkowski",p1);
         b1.display();
         Book b2 = new Book("Zemsta","Aleksander Fredro");
         b2.display();
